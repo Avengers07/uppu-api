@@ -19,6 +19,7 @@ namespace uppu_api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            // need to add authentication for google, facebook, twitter - which required nuget package
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline and middleware.
